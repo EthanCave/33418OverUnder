@@ -3,18 +3,18 @@ int pneu1() {
     return 0;
   }
 void retract1() {
-  JackIsGettingBackWit.set(true);
-  hHisExGirlfriend.set(true);
+  FlapRight.set(true);
+  FlapLeft.set(true);
   };
 void retractleft() {
-  hHisExGirlfriend.set(true);
+  FlapLeft.set(true);
 }
 void outleft() {
-  hHisExGirlfriend.set(false);
+  FlapLeft.set(false);
 }
  void out1() {
-  JackIsGettingBackWit.set(false);
-  hHisExGirlfriend.set(false);
+  FlapRight.set(false);
+  FlapLeft.set(false);
     };
 void launch1() {
   Puncher.spin(reverse,100, percent);

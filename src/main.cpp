@@ -9,10 +9,10 @@
 // R1                   motor         13              
 // R2                   motor         14              
 // R3                   motor         15              
-// JackIsGettingBackWit digital_out   C               
+// FlapRight            digital_out   C               
 // Puncher              motor         2               
 // Controller1          controller                    
-// hHisExGirlfriend     digital_out   D               
+// FlapLeft             digital_out   D               
 // Inertial9            inertial      9               
 // ---- END VEXCODE CONFIGURED DEVICES ----
 
@@ -40,12 +40,12 @@ int pneu() {
     return 0;
   }
 void retract() {
-  JackIsGettingBackWit.set(true);
-  hHisExGirlfriend.set(true);
+  FlapRight.set(true);
+  FlapLeft.set(true);
   };
 void out() {
-  JackIsGettingBackWit.set(false);
-  hHisExGirlfriend.set(false);
+  FlapLeft.set(false);
+  FlapRight.set(false);
     };
 void launch() {
   Puncher.spin(reverse,100, percent);

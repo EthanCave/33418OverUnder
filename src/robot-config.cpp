@@ -14,10 +14,10 @@ motor L3 = motor(PORT11, ratio6_1, true);
 motor R1 = motor(PORT13, ratio6_1, false);
 motor R2 = motor(PORT14, ratio6_1, false);
 motor R3 = motor(PORT15, ratio6_1, false);
-digital_out JackIsGettingBackWit = digital_out(Brain.ThreeWirePort.C);
+digital_out FlapRight = digital_out(Brain.ThreeWirePort.C);
 motor Puncher = motor(PORT2, ratio36_1, false);
 controller Controller1 = controller(primary);
-digital_out hHisExGirlfriend = digital_out(Brain.ThreeWirePort.D);
+digital_out FlapLeft = digital_out(Brain.ThreeWirePort.D);
 inertial Inertial9 = inertial(PORT9);
 
 // VEXcode generated functions

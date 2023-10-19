@@ -9,10 +9,10 @@ extern motor L3;
 extern motor R1;
 extern motor R2;
 extern motor R3;
-extern digital_out JackIsGettingBackWit;
+extern digital_out FlapRight;
 extern motor Puncher;
 extern controller Controller1;
-extern digital_out hHisExGirlfriend;
+extern digital_out FlapLeft;
 extern inertial Inertial9;
 
 /**
