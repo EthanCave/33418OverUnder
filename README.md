@@ -1,5 +1,5 @@
 # 33418X
-33418X is the VRC team of The Benjamin School, Palm Beach Gardens. The members of this team are Ethan Cave, Kate Hilzenrath, John Lacy, Alexander Napier, and Christopher Tighe.
+33418X is the VRC team of The Benjamin School, Palm Beach Gardens. The members of this team are Ethan Cave, Kate Hilzenrath, John Lacy, Alexander Napier, Christopher Tighe, and Ollie Olsen-White.
 # Left Side Auton
 The Left Side Auton uses a PID Controller to score the preload, remove the initial triball from the match load area, and touch the same color elevation bar.
 # Right Side Auton
